@@ -6,3 +6,7 @@ The AB_NYC_2019 dataset contains information about Airbnb properties in New York
 3. Property Classification: Group properties based on price or room type.
 4. Availability and Review Analysis: Understand the relationship between property availability and reviews, and their impact on price.
 5. Property Recommendations: Develop a recommendation system based on user preferences.
+
+
+Dataset: https://docs.google.com/spreadsheets/d/e/2PACX-1vReSZjCye9YLLYwzXeqU8TBWsmFBxm-Ejsu53k2PxD5mo80X-n6Hox7uW2T28XaWqaxq6A3FfVDBT3a/pub?gid=662520005&single=true&output=csv
+Medium: LINK
