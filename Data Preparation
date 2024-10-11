@@ -1,0 +1,12 @@
+# Menghapus baris dengan data yang hilang di kolom 'name' dan 'host_name'
+df_cleaned = df.dropna(subset=['name', 'host_name'])
+
+# Mengisi kolom 'last_review' dengan 'No Review' dan 'reviews_per_month' dengan 0
+df['last_review'].fillna('No Review', inplace=True)
+df['reviews_per_month'].fillna(0, inplace=True)
+
+missing_values_after = df_cleaned.isnull().sum()
+missing_values_after
+
+# Convert 'last_review' to datetime, handling the 'No Reviews' case
+df['last_review'] = pd.to_datetime(df['last_review'], errors='coerce')
